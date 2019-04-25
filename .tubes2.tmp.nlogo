@@ -24,10 +24,6 @@ to goal
     ask patch mouse-xcor mouse-ycor [ set pcolor red ]
   ]
 end
-
-to go
-
-end
 @#$#@#$#@
 GRAPHICS-WINDOW
 210
@@ -91,29 +87,12 @@ NIL
 1
 
 BUTTON
-16
-90
-100
-123
+38
+87
+120
+120
 set goal
 goal
-T
-1
-T
-OBSERVER
-NIL
-NIL
-NIL
-NIL
-1
-
-BUTTON
-28
-156
-91
-189
-NIL
-go
 T
 1
 T
